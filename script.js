@@ -2,7 +2,7 @@ var response = null;
 var followers = null;
 
 document.getElementsByTagName('button')[0].addEventListener('click', function(r) {
-  getUser(document.getElementsByTagName('input')[0].value);
+    getUser(document.getElementsByTagName('input')[0].value);
 });
 
 function getUser(name) {
